@@ -1,4 +1,10 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/font";
+@import "libs/slick";
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
 @import "base/variables";
+@import "base/animations";
+
 * {
     font-family: "Museo Sans Cyrl", sans-serif;
 }
@@ -20,3 +26,6 @@
 @import "blocks/catalog";
 @import "blocks/feedback";
 @import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
+@import "base/media";
